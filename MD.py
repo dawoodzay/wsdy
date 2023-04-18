@@ -387,15 +387,17 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
-logo = """      .sSSSsSS SSsSSSSS                  .sSSSSs.                                              
-SSSSS  SSS  SSSSS .sSSSSSSSs.      SSSSSSSSSs. .sSSSSs.    .sSSS s.    SSSSS SSSSS       
-S SSS   S   SSSSS S SSS SSSSS      S SSS SSSSS S SSSSSSSs. S SSS SSSs. S SSS S SSS       
-S  SS       SSSSS S  SS SSSS'      S  SS SSSSS S  SS SSSS' S  SS SSSSS S  SS S  SS       
-S..SS       SSSSS S..SSsSSSa.      S..SS SSSSS S..SS       S..SS SSSSS S..SS S..SS       
-S:::S       SSSSS S:::S SSSSS      S:::S SSSSS S:::SSSS     S::S SSSS  S:::S S:::S       
-S;;;S       SSSSS S;;;S SSSSS      S;;;S SSSSS S;;;S         S;S SSS   S;;;S S;;;S       
-S%%%S       SSSSS S%%%S SSSSS      S%%%S SSSS' S%%%S SSSSS    SS SS    S%%%S S%%%S SSSSS 
-SSSSS       SSSSS SSSSS SSSSS      SSSSSsS;:'  SSSSSsSS;:'     SsS     SSSSS SSSSSsSS;:' 
+logo = """      .       $$\   $$\           $$\      $$\ 
+$$ |  $$ |   $$\    $$ | $\  $$ |
+$$ |  $$ |   $$ |   $$ |$$$\ $$ |
+$$ |  $$ |$$$$$$$$\ $$ $$ $$\$$ |
+$$ |  $$ |\__$$  __|$$$$  _$$$$ |
+$$ |  $$ |   $$ |   $$$  / \$$$ |
+\$$$$$$  |   \__|   $$  /   \$$ |
+ \______/           \__/     \__|                          
+.................................
+
+;:...............................' 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 \x1b[1;78m-------------------------
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••• 
